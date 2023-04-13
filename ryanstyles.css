@@ -107,10 +107,9 @@ tr td h4 {
     text-align: left;
     display: block;
 }
-
 .contact {
-    width: auto;
-    height: auto;
+	text-align: left;
+	padding-left: 40px;
 }
 
 .visitor_info {
