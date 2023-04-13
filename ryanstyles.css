@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/****************** ELEMENT STYLES **************************************/
+
+a {
+	color: navy;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: crimson;
+	text-decoration: underline;
+}
+
+body nav {
+    background-color: #132E60;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* [disabled]text-align: center; */
+}
+
+body nav ul {
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+body header {
+    background-color: #D9F4E8;
+	padding-bottom: 20px;
+}
+
+body {
+    background-color: #D9F4E8;
+    text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+body nav button {
+    border-top-width: thin;
+    height: auto;
+    color: #5CB04A;
+    background-color: #246C14;
+    /* [disabled]display: inherit; */
+    font-size: 24px;
+    /* [disabled]text-align: left; */
+}
+
+body nav button:hover {
+    color: #D9F4E8;
+    background-color: #8BFF72;
+}
+
+button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+body footer {
+    background-color: #F9F7DB;
+	padding: 10px;
+	
+}
+
+body header img {
+    max-width: 100%;
+	margin: 10 auto;
+	
+}
+body form {
+    text-align: left;
+}
+
+table {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr td h1 {
+    text-align: center;
+}
+
+tr td h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+tr td ul {
+    text-align: left;
+    font-size: large;
+}
+
+tr td h4 {
+    text-align: center;
+    font-size: large;
+}
+
+/****************** CLASS STYLES **************************************/
+
+.resume_img {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: block;
+}
+
+.contact {
+    width: auto;
+    height: auto;
+}
+
+.visitor_info {
+    padding-left: 50px;
+}
+.welcome_contact {
+    text-align: left;
+    padding-left: 50px;
+}
+.resume_table {
+    width: 696px;
+}
+.resume_td1 {
+    width: 287px;
+    height: 319px;
+}
+.resume_td2 {
+    width: 399px;
+}
+.resume_td3 {
+    height: 174px;
+}
+.resume_td4 {
+    height: 210px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+.box_1 {
+	 width: 50%;
+	
+}
+.box_1 img {
+	padding-top: 45px;
+}
+
+.box_2 {
+    width: 70%;
+    padding-left: 40px;
+	flex-shrink: 1;
+	
+}
+
+.box_2 h1 {
+    text-align: center;
+}
+
+.box_2 p {
+    font-size: 16pt;
+	text-align: left;
+}
+
+.box_3 {
+    width: 70%;
+    padding-left: 40px;
+	padding-top: 30px;
+    flex-shrink: 1;
+}
+
+.box_3 img {
+	width: 40%;
+}
+
+
+.box_3 h1 {
+    text-align: center;
+}
+
+.box_3 p {
+    font-size: 16pt;
+
+}
+
+.box_4 {
+    padding-left: 40px;
+}
+
+.box_4 img {
+	width: 70%;
+}
+
+/****************** ID STYLES **************************************/
+
+#family_pic {
+	width: 100%;
+	height: auto;
+}
