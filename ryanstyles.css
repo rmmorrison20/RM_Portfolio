@@ -5,7 +5,8 @@
 		align-content:center;
 		flex-direction: column;
 		msrgin: auto;
-	}}
+	}
+}
 /****************** ELEMENT STYLES **************************************/
 
 a {
@@ -171,6 +172,7 @@ tr td h4 {
 	flex-shrink: 1;
 	margin: auto;
 	padding-top: 30px;
+	padding-left: 30px;
 	
 }
 
