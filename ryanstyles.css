@@ -4,7 +4,7 @@
 	.container {
 		align-content:center;
 		flex-direction: column;
-		msrgin: auto;
+		margin: auto;
 	}
 }
 /****************** ELEMENT STYLES **************************************/
