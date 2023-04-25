@@ -4,10 +4,8 @@
 	.container {
 		align-content:center;
 		flex-direction: column;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
+		msrgin: auto;
+	}}
 /****************** ELEMENT STYLES **************************************/
 
 a {
@@ -220,6 +218,6 @@ tr td h4 {
 /****************** ID STYLES **************************************/
 
 #family_pic {
-	width: 100%;
-	height: auto;
-}
+		width: 100%;
+		height: auto;
+	}
