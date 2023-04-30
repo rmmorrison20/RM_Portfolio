@@ -6,6 +6,12 @@
 		flex-direction: column;
 		margin: auto;
 	}
+	
+	.resume_container {
+		align-content:center;
+		flex-direction: column;
+		margin: auto;
+	}
 }
 /****************** ELEMENT STYLES **************************************/
 
