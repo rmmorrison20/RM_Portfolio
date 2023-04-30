@@ -12,7 +12,12 @@
 		flex-direction: column;
 		margin: auto;
 	}
+	
+	#resume_img {
+    width: 100%;
 }
+}
+
 /****************** ELEMENT STYLES **************************************/
 
 a {
