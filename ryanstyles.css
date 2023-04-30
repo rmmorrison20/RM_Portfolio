@@ -184,7 +184,41 @@ body form {
 		height: auto;
 	}
 
-#resume_img {
-    width: 60%;
+
+.resume_container {
+    display: flex;
+    width: 100%;
     height: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+.rbox_1 {
+	 width: 50%;
+	margin: auto;
+	
+}
+
+
+.rbox_2 {
+	flex-direction: column;
+    width: 50%;
+	padding-top: 30px;
+}
+
+
+.rbox_2 ul {
+	text-align: left;
+}
+
+.rbox_2 h3,h4{
+	text-align: left;
+	padding: 20px;
+}
+
+#resume_img {
+    width: 40%;
+    height: auto;
+	float: right;
+	padding-right: 20px;
 }
