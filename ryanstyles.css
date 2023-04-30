@@ -119,10 +119,7 @@ body form {
 	margin-right: auto;
 }
 
-#resume_img {
-    width: 60%;
-    height: auto;
-}
+
 
 .box_2 {
 	display: flex;
@@ -186,3 +183,9 @@ body form {
 		width: 100%;
 		height: auto;
 	}
+
+#resume_img {
+    width: 60%;
+    height: auto;
+	align-self: right;
+}
